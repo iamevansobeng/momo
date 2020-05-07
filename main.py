@@ -3,10 +3,8 @@ import db
 import user
 import msg
 
-limit = 3
-
 def startMomo():
-    while limit < 4:
+    while user.loginAttempt < user.loginLimit:
         getPass = int(input(msg.m['askPass']))
         if user.checkpin(getPass):
             print(msg.m['welcome'])
@@ -23,6 +21,10 @@ def startMomo():
             elif m_opt == 4:
                 transferAmount = float(input(msg.m['wAmt']))
                 user.trans(transferAmount)
+        else:
+            user.loginAttempt += 1
+            print(user.loginAttempt)
+    print(msg.m['acBlocked'])
 
 mySession = sessionmaker(bind=db.engine)
 

@@ -5,6 +5,8 @@ import msg
 #mmmmmmmmmmmmmmmmmmmmm
 #   CREATING A USER
 #mmmmmmmmmmmmmmmmmmmmm
+loginAttempt = 0
+loginLimit = 3
 mySession = sessionmaker(bind=db.engine)
 appSession = mySession()
 
