@@ -20,4 +20,10 @@
 
 #    RUN THE MAIN.PY FILE TO START THE PROGRAM
 
+### App Feauteres
 
+1.  Login {The default password is 8879}  
+2.  Checking Balance
+3.  Deposit to Account
+4.  Withdraw from Account {Cannot leave account less than $20}
+5.  Transfert to other Mobile money users {You must enter 10 digit number to successfully make a transfer}
