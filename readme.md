@@ -1,11 +1,11 @@
-#########################
-    #CREATED BY EVANS OBENG
-    #FOLLOW @iamevansobeng on fb,ig & twitter
+################################################
+##    CREATED BY EVANS OBENG
+####   FOLLOW @iamevansobeng on fb,ig & twitter
 ################################################
 
-### SKIP THIS IF YOU DOWNLOADED THE momo.db file
+## SKIP THIS IF YOU DOWNLOADED THE momo.db file
 
-    ###FOLLOW THIS ONE TIME STEP TO SUCCESSFULLY RUN THIS CODE
+# ###FOLLOW THIS ONE TIME STEP TO SUCCESSFULLY RUN THIS CODE
 ______________________________________________________
 
 1. INSTALL ALL THE REQUIREMENTS IN THE requirements.txt file
@@ -14,6 +14,6 @@ ______________________________________________________
 4. Go to the main step
 
 #mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-    RUN THE MAIN.PY FILE TO START THE PROGRAM
+#    RUN THE MAIN.PY FILE TO START THE PROGRAM
 #mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 
