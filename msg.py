@@ -39,6 +39,11 @@ m={
         Enter Amount you want to Transfer
         ---------------------------------
     ''',
+    'invalNo':'''
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            INVALID TELEPHONE NUMBER ,ENTER A 10 DIGIT NUMBER
+        xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+    ''',
     'acBlocked':'''
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         ________________________________________

@@ -46,7 +46,7 @@ def deposit(amt):
     newBal = oldBal + amt
     quer.bal = newBal
     appSession.commit()
-    return print(f"\n Deposit of ${amt} mad successful \n Your new Balance is ${newBal}\b")
+    return print(f"\n Deposit of ${amt} made successful \n Your new Balance is ${newBal}\b")
 
 def withdraw(amt):
     if amt > checkBalance():
@@ -56,19 +56,20 @@ def withdraw(amt):
         appSession.commit()
         print(f'\n You have Successfully withdrwan ${amt}, Your balance is ${checkBalance()}')
     elif checkBalance() - amt < 20:
-        print("\n A minum of $20 is required to keep your account open \n")
+        print("\n A minimum of $20 is required to keep your account open \n")
 
 def trans(amt):
     if amt > checkBalance():
         print("\n You don't have enought balance to complete the Transfer \n")
     elif checkBalance() - amt >= 20:
         numQ = input('\n\n    Enter the number of the reciepient\n')
-        #checking if number has 10 characters, so you can't send to single digits(eg. 1,0)
-        if len(numQ) > 9:
+
+#checking if number has 10 characters, so you can't send to single digits(eg. 1,0)
+        if len(numQ) == 10:
             quer.bal -= amt
             appSession.commit()
             print(f'\n Transfer of ${amt} Successfuly made to +233{numQ} Your balance is ${checkBalance()}')
         else:
-            print('Try again')
+            print(msg.m['invalNo'])
     elif amt == checkBalance():
         print("\n Transfer Failed , A minum of $20 is required to keep your account open \n")

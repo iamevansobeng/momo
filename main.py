@@ -23,7 +23,6 @@ def startMomo():
                 user.trans(transferAmount)
         else:
             user.loginAttempt += 1
-            print(user.loginAttempt)
     print(msg.m['acBlocked'])
 
 mySession = sessionmaker(bind=db.engine)
