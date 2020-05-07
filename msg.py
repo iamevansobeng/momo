@@ -2,7 +2,7 @@ m={
     'welcome':'''
         ======================================
         ======================================
-            WELCOME TO EVANS BANK ATM
+            WELCOME TO EVOCOM MOBILE MONEY
         ______________________________________
         ======================================
     ''',
@@ -47,7 +47,7 @@ m={
     'acBlocked':'''
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         ________________________________________
-            ACCOUNT BLOCKED , CONTACT BANK
+            ACCOUNT BLOCKED , CONTACT EVOCOM
         ________________________________________
         xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     '''
