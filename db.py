@@ -11,7 +11,7 @@ class Momo(Base):
         pin = Column('Secret Code',Integer,nullable=False)
 
 
-engine = create_engine('sqlite:///momo.db',echo=True)
+engine = create_engine('sqlite:///momo.db')
 
 
 if __name__ == '__main__':
