@@ -34,7 +34,7 @@ m={
         Enter Amount you want to withdraw
         ---------------------------------
     ''',
-    'wAmt':'''
+    'transAmt':'''
         ---------------------------------
         Enter Amount you want to Transfer
         ---------------------------------

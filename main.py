@@ -19,7 +19,7 @@ def startMomo():
                 widAmount = float(input(msg.m['wAmt']))
                 user.withdraw(widAmount)
             elif m_opt == 4:
-                transferAmount = float(input(msg.m['wAmt']))
+                transferAmount = float(input(msg.m['transAmt']))
                 user.trans(transferAmount)
         else:
             user.loginAttempt += 1
